@@ -37,6 +37,10 @@ form {
   color: #d5d5d5;
 }
 
+.input:focus {
+  outline-color: #000;
+}
+
 .todos {
   background-color: #fff;
   padding: 0;
@@ -54,4 +58,54 @@ form {
 .todos li.completed {
   color: #b6b6b6;
   text-decoration: line-through;
+}
+
+/* Instruction Button */
+strong {
+  color: #ff0054;
+}
+
+.btn {
+  cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  background: #2ec4b6;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  background: #ff0054;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.rules {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #d8e2dc;
+  color: #000;
+  min-height: 100vh;
+  width: 400px;
+  padding: 20px;
+  line-height: 1.5;
+  transform: translateX(-400px);
+  transition: transform 1s ease-in-out;
+}
+
+.rules.show {
+  transform: translateX(0);
 }

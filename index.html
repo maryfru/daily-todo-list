@@ -9,6 +9,21 @@
   </head>
   <body>
     <img src="img/logo.png" alt="daily-todo-list-logo" width="500px" />
+    <button id="rules-btn" class="btn rules-btn">Show Instruction</button>
+    <div id="rules" class="rules">
+      <h2>How it works:</h2>
+      <ol>
+        <li>
+          Press the <strong>left</strong> mouse-button over the todo you like to
+          mark as completed.
+        </li>
+        <li>
+          Press the <strong>right</strong> mouse-button over the todo you like
+          to delete.
+        </li>
+      </ol>
+      <button id="close-btn" class="btn">Close</button>
+    </div>
     <form id="form">
       <input
         type="text"
@@ -17,10 +32,7 @@
         placeholder="Enter your todo"
         autocomplete="off"
       />
-      <ul class="todos" id="todos">
-        <li>My First Todo</li>
-        <li class="completed">My Second Todo</li>
-      </ul>
+      <ul class="todos" id="todos"></ul>
     </form>
 
     <script src="script.js"></script>
