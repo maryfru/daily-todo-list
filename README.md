@@ -27,6 +27,6 @@ With its simplified and appealing layout it is also well suited for children.
 - [x] Create simple and friendly layout
 - [x] Add instruction
 - [x] Delete and complete feature added
-- [ ] Saving input in local storage
-- [ ] Create more advanced to do list layout (for adults)
-- [ ] Adding CRUD-API for advanced todo list
+- [x] Saving todos to local storage
+- [ ] Create more advanced todo list layout (for adults)
+- [ ] Might switch to CRUD-API for advanced todo list 
